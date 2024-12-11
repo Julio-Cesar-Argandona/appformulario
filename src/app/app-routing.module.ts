@@ -5,7 +5,8 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 
 const routes: Routes = [
   {path:'inicio',component: InicioComponent},
-  {path:'acercade',component: AcercadeComponent}
+  {path:'acercade',component: AcercadeComponent},
+  {path:'**',component: InicioComponent},
 ];
 
 @NgModule({
